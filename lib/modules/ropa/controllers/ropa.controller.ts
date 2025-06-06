@@ -17,6 +17,7 @@ export class RopaController {
             });
         })
         .catch(error =>{
+            
             res.status(400).json({
                 ok: false,
                 error: error.name,
